@@ -66,7 +66,7 @@ cycleway is useless as it is not rendered on the device (too crowded) | everythi
 ## Map format
 - Format is mapsforge
 - Renderer on the BSC300:
-  - anything you want green use landuse=grass (--modify-tags="landuse=something to =grass")
+  - anything you want green use landuse=grass (--modify-tags="landuse=something to =grass" or leisure=garden to landuse=grass)
   - it can only render some amount of roads/ways. Even the original maps are not rendered fully. Random roads are missing.
     - thats the reason why I [filter extensively](template_state_country.yml) which ways to add.
   - Code on this repo does not use simplification-factor for zoom levels 13 and 14. Original uses some factor > 0.5 making the maps even smaller but less accurate 
